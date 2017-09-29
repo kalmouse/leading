@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA3DB579-29A3-4F35-8F76-720056AB5076}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeadingClass</RootNamespace>
+    <AssemblyName>LeadingClass</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <SccProjectName>%24/LeadingTeam/Main/LeadingTeam/LeadingClass</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://leadingserver:8080/tfs/leadingteamprojectcollection</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessControl.cs" />
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="BaseModel.cs" />
+    <Compile Include="BiddingTable.cs" />
+    <Compile Include="Brand.cs" />
+    <Compile Include="Budget.cs" />
+    <Compile Include="BuyAdmin.cs" />
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="SQLOption.cs" />
+    <Compile Include="Confirmprocess.cs" />
+    <Compile Include="Crawinfo.cs" />
+    <Compile Include="Crawltable.cs" />
+    <Compile Include="CRM_Complain.cs" />
+    <Compile Include="Crm_DeliveryLog.cs" />
+    <Compile Include="CustomerDiscountRate.cs" />
+    <Compile Include="Emailapply.cs" />
+    <Compile Include="EmailServ.cs" />
+    <Compile Include="ExportRecord.cs" />
+    <Compile Include="Fav.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="CompanyManager.cs" />
+    <Compile Include="CompanyType.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="DeliveryLine.cs" />
+    <Compile Include="DeliveryLineManager.cs" />
+    <Compile Include="Dept.cs" />
+    <Compile Include="Gift.cs" />
+    <Compile Include="Goods.cs" />
+    <Compile Include="GoodsAC.cs" />
+    <Compile Include="GoodsBranch.cs" />
+    <Compile Include="GoodsBrowse.cs" />
+    <Compile Include="GoodsComment.cs" />
+    <Compile Include="GoodsManager.cs" />
+    <Compile Include="GoodsPackage.cs" />
+    <Compile Include="GoodsParam.cs" />
+    <Compile Include="GoodsPhoto.cs" />
+    <Compile Include="Means.cs" />
+    <Compile Include="MemberThirdPlat.cs" />
+    <Compile Include="OrderConfig.cs" />
+    <Compile Include="TPI_Category.cs" />
+    <Compile Include="TPI_Goodsparam.cs" />
+    <Compile Include="TPI_DSFBrand.cs" />
+    <Compile Include="GoodsShelvesLog.cs" />
+    <Compile Include="GoodsStandingInventory.cs" />
+    <Compile Include="GoodsStore.cs" />
+    <Compile Include="GoodsType.cs" />
+    <Compile Include="Goods_Iterface.cs" />
+    <Compile Include="Invoice.cs" />
+    <Compile Include="InvoiceManager.cs" />
+    <Compile Include="InvoiceMemberInfo.cs" />
+    <Compile Include="InvoiceRequire.cs" />
+    <Compile Include="Ipaddress.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JsonHelper.cs" />
+    <Compile Include="Member.cs" />
+    <Compile Include="MemberAddress.cs" />
+    <Compile Include="MemberCart.cs" />
+    <Compile Include="Memberinfocfg.cs" />
+    <Compile Include="MemberManager.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="NeedToPurchase.cs" />
+    <Compile Include="NeedToPurchaseDetail.cs" />
+    <Compile Include="NeedToPurchaseOrder.cs" />
+    <Compile Include="News.cs" />
+    <Compile Include="NewsType.cs" />
+    <Compile Include="Notice.cs" />
+    <Compile Include="NoticeRecord.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderBox.cs" />
+    <Compile Include="OrderBoxDelivery.cs" />
+    <Compile Include="OrderDelivery.cs" />
+    <Compile Include="OrderDetail.cs" />
+    <Compile Include="OrderFeedBackManager.cs" />
+    <Compile Include="OrderManager.cs" />
+    <Compile Include="OrderModify.cs" />
+    <Compile Include="OrderPhoto.cs" />
+    <Compile Include="OrderPicking.cs" />
+    <Compile Include="OrderPrintView.cs" />
+    <Compile Include="OrderReceiveMoney.cs" />
+    <Compile Include="OrderStatement.cs" />
+    <Compile Include="OrderStatus.cs" />
+    <Compile Include="OrderStatusDetail.cs" />
+    <Compile Include="PageModel.cs" />
+    <Compile Include="PointDetail.cs" />
+    <Compile Include="PointType.cs" />
+    <Compile Include="Province.cs" />
+    <Compile Include="Purchase.cs" />
+    <Compile Include="PurchaseCashConfirm.cs" />
+    <Compile Include="PurchaseLog.cs" />
+    <Compile Include="PurchaseManager.cs" />
+    <Compile Include="PurchasePay.cs" />
+    <Compile Include="PurchaseStatement.cs" />
+    <Compile Include="RecordControl.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="StoreCustomer.cs" />
+    <Compile Include="StoreCustomerDetail.cs" />
+    <Compile Include="Sys_RoleMenu.cs" />
+    <Compile Include="SalesTarget.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="StoreCustomerMeg.cs" />
+    <Compile Include="StoreDept.cs" />
+    <Compile Include="StoreMember.cs" />
+    <Compile Include="StoreZone.cs" />
+    <Compile Include="Supplier.cs" />
+    <Compile Include="SupplierPriceList.cs" />
+    <Compile Include="SupplierPriceListDetail.cs" />
+    <Compile Include="SupplierPriceListManager.cs" />
+    <Compile Include="Sys_Authority.cs" />
+    <Compile Include="Sys_Branch.cs" />
+    <Compile Include="Sys_BranchActivity.cs" />
+    <Compile Include="Sys_BranchDetail.cs" />
+    <Compile Include="Sys_BranchPhoto.cs" />
+    <Compile Include="Sys_Car.cs" />
+    <Compile Include="Sys_Dept.cs" />
+    <Compile Include="SQLServerDBOperate.cs" />
+    <Compile Include="Sys_ErrorLog.cs" />
+    <Compile Include="Sys_Log.cs" />
+    <Compile Include="Sys_Menu.cs" />
+    <Compile Include="Sys_Role.cs" />
+    <Compile Include="Sys_RoleAuthority.cs" />
+    <Compile Include="Sys_Updater.cs" />
+    <Compile Include="Sys_Upload.cs" />
+    <Compile Include="Sys_UserManager.cs" />
+    <Compile Include="Sys_UserRole.cs" />
+    <Compile Include="Sys_Users.cs" />
+    <Compile Include="TPI_Authority.cs" />
+    <Compile Include="TPI_Enum.cs" />
+    <Compile Include="TPI_ErrorLog.cs" />
+    <Compile Include="TPI_Goods.cs" />
+    <Compile Include="TPI_GoodsCompare.cs" />
+    <Compile Include="TPI_GoodsType.cs" />
+    <Compile Include="TPI_HNSCGoods.cs" />
+    <Compile Include="TPI_Messagepush.cs" />
+    <Compile Include="TPI_OperationLog.cs" />
+    <Compile Include="TPI_Order.cs" />
+    <Compile Include="TPI_Orderdetail.cs" />
+    <Compile Include="TPI_Project.cs" />
+    <Compile Include="TPI_ProjectManager.cs" />
+    <Compile Include="TPI_Province.cs" />
+    <Compile Include="TPI_Refund.cs" />
+    <Compile Include="TPI_RefundWaybill.cs" />
+    <Compile Include="TPI_Users.cs" />
+    <Compile Include="Transfer.cs" />
+    <Compile Include="TransferDetail.cs" />
+    <Compile Include="VIPApply.cs" />
+    <Compile Include="VIPApplyDetail.cs" />
+    <Compile Include="VIPApplyManager.cs" />
+    <Compile Include="VIPApplyModify.cs" />
+    <Compile Include="VIPConfiguration.cs" />
+    <Compile Include="VIPCounter.cs" />
+    <Compile Include="VIPCounterCompany.cs" />
+    <Compile Include="VIPCounterDetail.cs" />
+    <Compile Include="VIPCounterManager.cs" />
+    <Compile Include="VIPSiteInfo.cs" />
+    <Compile Include="CustomerReview.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="所需引用\外部引用\CommenClass.dll" />
+    <Content Include="所需引用\外部引用\LeadingClass.dll" />
+    <Content Include="所需引用\系统引用\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="所需引用\系统引用\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="所需引用\系统引用\说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerReviewParameter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommenClass\CommenClass.csproj">
+      <Project>{e6e1e954-032b-4bdd-8d91-778f8fe060c1}</Project>
+      <Name>CommenClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

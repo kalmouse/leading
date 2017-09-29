@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[LeadingClass.csproj]
+SCC_Aux_Path = "\\leadingserver\vss2005$"
+SCC_Project_Name = "$/Leading/LeadingClass", EAAAAAAA

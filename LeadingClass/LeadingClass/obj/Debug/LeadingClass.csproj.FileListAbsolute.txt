@@ -1,0 +1,9 @@
+D:\LeadingTeam\LeadingTeam\Main\LeadingTeam\LeadingClass\bin\Debug\LeadingClass.dll
+D:\LeadingTeam\LeadingTeam\Main\LeadingTeam\LeadingClass\bin\Debug\LeadingClass.pdb
+D:\LeadingTeam\LeadingTeam\Main\LeadingTeam\LeadingClass\bin\Debug\CommenClass.dll
+D:\LeadingTeam\LeadingTeam\Main\LeadingTeam\LeadingClass\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\LeadingTeam\LeadingTeam\Main\LeadingTeam\LeadingClass\bin\Debug\ChnCharInfo.dll
+D:\LeadingTeam\LeadingTeam\Main\LeadingTeam\LeadingClass\bin\Debug\CommenClass.pdb
+D:\LeadingTeam\LeadingTeam\Main\LeadingTeam\LeadingClass\obj\Debug\LeadingClass.csprojResolveAssemblyReference.cache
+D:\LeadingTeam\LeadingTeam\Main\LeadingTeam\LeadingClass\obj\Debug\LeadingClass.dll
+D:\LeadingTeam\LeadingTeam\Main\LeadingTeam\LeadingClass\obj\Debug\LeadingClass.pdb
